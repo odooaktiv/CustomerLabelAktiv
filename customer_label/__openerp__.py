@@ -10,7 +10,7 @@
     'description': 'Print Customer Label for the selected Customers.',
 
     'depends': [
-        'sale_management'
+        'sale'
     ],
 
     'data': [

@@ -7,13 +7,12 @@
         model="res.partner"
         report_type="qweb-pdf"
         string="Customer Label"
-        name="customer_label_report_v11c.report_label"
-        file="customer_label_report_v11c.report_label"
-        print_report_name="'Customer Label - %s' % (object.name)"
+        name="customer_label_report_v9c.report_label"
+        file="customer_label_report_v9c.report_label"
     />
 
     <template id="report_label">
-        <t t-call="web.basic_layout">
+        <t t-call="report.html_container">
             <div class="page">
                 <t t-foreach="docs" t-as="employee">
                     <div class="col-xs-6" style="padding:0;">
