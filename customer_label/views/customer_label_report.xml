@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- QWeb Reports -->
+
+    <report 
+        id="action_report_print_label"
+        model="res.partner"
+        report_type="qweb-pdf"
+        string="Customer Label"
+        name="customer_label_report_v11c.report_label"
+        file="customer_label_report_v11c.report_label"
+        print_report_name="'Customer Label - %s' % (object.name)"
+    />
+
+    <template id="report_label">
+        <t t-call="web.basic_layout">
+            <div class="page">
+                <t t-foreach="docs" t-as="employee">
+                    <div class="col-xs-6" style="padding:0;">
+                        <table style="width: 80%; border: 2px solid black; border-collapse:separate; border-radius:8pt; margin:5pt; padding:5pt">
+                            <td style="width: 2.63in;" colspan="2" class="col-xs-8 danger"  align="center">
+                                <table style="width: 1in;">
+                                    <tr><th><div style="font-size:20pt; margin-bottom:0pt;margin-top:0pt;" align="center"><t t-esc="employee.name"/></div></th></tr>
+                                    <tr><td><div style="font-size:12pt;" align="center"><t t-esc="employee.email"/>&amp;nbsp;</div></td></tr>
+                                    <tr><td><div style="font-size:13pt;" align="center"><t t-esc="employee.phone"/>&amp;nbsp;</div></td></tr>
+                                    <tr><td><div style="font-size:13pt;" align="center"><t t-esc="employee.street"/><t t-esc="employee.street2"/>&amp;nbsp;</div></td></tr>
+                                    <tr><td><div style="font-size:13pt;" align="center"><t t-esc="employee.city"/>
+                                    <t t-esc="employee.zip"/>&amp;nbsp;</div></td></tr>
+                                    <tr><td><div style="font-size:13pt;" align="center"><t t-esc="employee.state_id.name"/> <t t-esc="employee.country_id.name"/>&amp;nbsp;</div></td></tr>
+                                </table>
+                            </td>
+                        </table>
+                        <br/>
+                    </div>
+                </t>
+            </div>
+        </t>
+    </template>
+</odoo>
