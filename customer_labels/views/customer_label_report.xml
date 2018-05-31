@@ -7,8 +7,8 @@
         model="res.partner"
         report_type="qweb-pdf"
         string="Customer Label"
-        name="customer_label_report_v11c.report_label"
-        file="customer_label_report_v11c.report_label"
+        name="customer_labels.report_label"
+        file="customer_labelsreport_label"
         print_report_name="'Customer Label - %s' % (object.name)"
     />
 
