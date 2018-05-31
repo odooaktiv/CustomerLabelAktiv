@@ -1,8 +1,8 @@
-Odoo 9.0 Community 
+Odoo 9.0 (Both Edition) 
 
 Installation 
 ============
-* Install the Application => Apps -> Customer Label (Technical Name: customer_label)
+* Install the Application => Apps -> Customer Labels (Technical Name: customer_labels)
 
 
 

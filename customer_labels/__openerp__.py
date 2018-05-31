@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Customer Label',
+    'name': 'Customer Labels',
     'category': 'Base',
     'version': '1.1',
     'website': 'http://www.aktivsoftware.com',
