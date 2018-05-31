@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Customer Label',
+    'name': 'Customer Labels',
     'category': 'Base',
     'version': '1.1',
     'website': 'http://www.aktivsoftware.com',
     'author': 'Aktiv Software',
     'license': 'AGPL-3',
-    'description': 'Print Customer Label for the selected Customers.',
+    'description': 'Print Customer Labels for the selected Customers.',
 
     'depends': [
-        'sale_management'
+        'sale'
     ],
 
     'data': [

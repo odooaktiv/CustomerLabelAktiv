@@ -2,7 +2,7 @@ Odoo 10.0 Community
 
 Installation 
 ============
-* Install the Application => Apps -> Customer Label (Technical Name: customer_label)
+* Install the Application => Apps -> Customer Labels (Technical Name: customer_labels)
 
 
 
