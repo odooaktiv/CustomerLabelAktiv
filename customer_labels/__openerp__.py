@@ -3,7 +3,8 @@
 {
     'name': 'Customer Labels',
     'category': 'Base',
-    'version': '1.1',
+    'version': '9.0.1.0.0',
+    'summary': 'This module is usually used to print 10 Customer Labels on each page.',
     'website': 'http://www.aktivsoftware.com',
     'author': 'Aktiv Software',
     'license': 'AGPL-3',
