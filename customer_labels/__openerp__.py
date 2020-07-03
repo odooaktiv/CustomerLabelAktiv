@@ -2,7 +2,7 @@
 
 {
     'name': 'Customer Labels',
-    'category': 'Base',
+    'category': 'Extra Tools',
     'version': '9.0.1.0.0',
     'summary': 'This module is usually used to print 10 Customer Labels on each page.',
     'website': 'http://www.aktivsoftware.com',
